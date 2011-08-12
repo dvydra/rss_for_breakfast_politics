@@ -17,8 +17,8 @@
     echo"\t<item>\n";
     echo    "\t\t<title>" . $link->innertext . "</title>\n";
     echo    "\t\t<description>" . $link->href . "</description>\n";
-    echo    "\t\t<link>" . $link . "</link>\n";
-    echo    "\t\t<guid>" . $link->href ."!". "</guid>\n";
+    echo    "\t\t<link>" . $link->href . "</link>\n";
+    echo    "\t\t<guid>" . $link->href . "</guid>\n";
     echo    "\t</item>\n";
   }
 echo "</channel>\n";
